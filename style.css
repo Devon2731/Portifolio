@@ -68,3 +68,13 @@ img {
   width: 350px;
   border-radius: 25px;
 }
+
+.contact ul li {
+   display: flex;
+    color: white;
+  flex-wrap: wrap;
+  text-align: center;
+
+  
+}
+
