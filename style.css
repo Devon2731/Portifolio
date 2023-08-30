@@ -13,51 +13,58 @@
   padding: 0;
   min-height: 100%;
   max-height: 100%;
-
 }
 
 .nav-bar {
   display: flex;
   justify-content: flex-end;
-  gap: 4px;
-  margin-right: 10px;
+  gap: 10px;
+  margin: 15px;
+  margin-right: 40px;
   color: white;
+  font-size: 20px;
+  flex-wrap: wrap;
+  
+  ;
 }
 
 .home-img {
-    width: 350px;
-    height: 350px;
-
+  width: 350px;
+  height: 350px;
 }
 .me-img {
-    width: 350px;
-    height: 350px;
+  width: 350px;
+  height: 350px;
 }
 
 .code-img {
-   width: 350;
-   height: 350;
+  width: 350;
+  height: 350;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .Intro {
-    color: white;
-    font-size: 50px;
+  color: white;
+  font-size: 50px;
 }
 
 h1 {
-    color:aquamarine;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-   
-
+  color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .who {
-    color:white;
-    flex-wrap: wrap;
+  color: white;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 350px;
+  width: 350px;
+  border-radius: 25px;
 }
